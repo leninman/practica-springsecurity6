@@ -21,8 +21,7 @@ public class RoleEntity {
 
 
     @Column(name = "role_name")
-    @Enumerated(EnumType.STRING)
-    private RoleEnum roleEnum;
+    private String roleName;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "role_permissions", joinColumns = @JoinColumn(name = "role_id"), inverseJoinColumns = @JoinColumn(name = "permission_id"))
