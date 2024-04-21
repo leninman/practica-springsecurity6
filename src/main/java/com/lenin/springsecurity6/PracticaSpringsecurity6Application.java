@@ -1,15 +1,13 @@
 package com.lenin.springsecurity6;
 
-import com.lenin.springsecurity6.persistence.entities.PermissionEntity;
-import com.lenin.springsecurity6.persistence.entities.RoleEntity;
-import com.lenin.springsecurity6.persistence.entities.UserEntity;
-import com.lenin.springsecurity6.persistence.repositories.UserRepository;
-import jdk.swing.interop.SwingInterOpUtils;
+import com.lenin.springsecurity6.security.persistence.entities.PermissionEntity;
+import com.lenin.springsecurity6.security.persistence.entities.RoleEntity;
+import com.lenin.springsecurity6.security.persistence.entities.UserEntity;
+import com.lenin.springsecurity6.security.persistence.repositories.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.util.List;
 import java.util.Set;

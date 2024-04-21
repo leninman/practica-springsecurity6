@@ -1,21 +1,10 @@
-package com.lenin.springsecurity6.controllers;
+package com.lenin.springsecurity6.app.controllers;
 
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/test")
 public class Usercontroller {
-   /* @GetMapping("/hello1")
-    public String hello(){
-        return "Hello World Public";
-    }
-
-    @GetMapping("/hello2")
-    public String hello2(){
-        return "Hello World Private";
-    }*/
-
 
     @GetMapping("/get")
     public String helloGet() {

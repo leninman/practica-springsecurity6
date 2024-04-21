@@ -1,4 +1,4 @@
-package com.lenin.springsecurity6.persistence.entities;
+package com.lenin.springsecurity6.security.persistence.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

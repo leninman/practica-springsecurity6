@@ -1,6 +1,6 @@
-package com.lenin.springsecurity6.persistence.repositories;
+package com.lenin.springsecurity6.security.persistence.repositories;
 
-import com.lenin.springsecurity6.persistence.entities.UserEntity;
+import com.lenin.springsecurity6.security.persistence.entities.UserEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
